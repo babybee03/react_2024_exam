@@ -1,0 +1,49 @@
+a {
+    text-decoration: none;
+    color: #333;
+}
+.btn {
+    position: absolute;
+    left: 200px;
+    top: 0;
+    width: 140px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #333;
+    background: rgba(22, 255, 72, 0.5);
+}
+nav {
+    position: absolute;
+    left: 200px;
+    top: 50px;
+    width: 140px;
+    height: 150px;
+    background: rgba(255, 255, 255, 50%);
+    transition: all 0.5s;
+}
+nav.act {
+    left: 340px;
+    background: rgb(58, 213, 240);
+    transition: all 0.5s;
+}
+.menu_01, .menu_02, .menu_03 {
+    position: relative;
+    clear: both;
+    width: 140px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #333;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 50%);
+    transition: all 0.5s;
+}
+.menu_01:hover, .menu_02:hover, .menu_03:hover {
+    color: #fff;
+    background: rgba(22, 255, 72, 0.5);
+    transition: all 0.5s;
+}
+.menu_01:hover > a, .menu_02:hover > a, .menu_03:hover > a {
+    color: #fff;
+}
